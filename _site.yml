@@ -1,9 +1,0 @@
-name: "luisalan-usace"
-output_dir: "."
-navbar:
-  title: "LAM | USACE"
-left:
-  - text: "Home"
-href: home.hmtl
-- text: "History"
-href: history.html
