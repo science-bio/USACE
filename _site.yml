@@ -1,0 +1,7 @@
+name: "LAM | COVID-19"
+output_dir: "."
+navbar:
+  title: "LAM | COVID-19"
+  left:
+    - text: "Home"
+      href: home.html
