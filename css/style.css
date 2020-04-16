@@ -11,13 +11,13 @@ body {
 	text-align:  center;
 	color:       #000;
 	font-family: georgia, serif;
-	font-size:   120%;
+	font-size:   160%;
 	line-height: 1.6;
 	margin:      0;
 	padding:     2em 2em 5em;
 	background:  rgb(253, 253, 253);
 	margin:      auto;
-	max-width:   33em;
+	max-width:   55em;
 	color:       rgb(10, 10, 10);
 }
 
@@ -112,7 +112,7 @@ video {
 }
 
 img {
-	max-width: 100%;
+	max-width: 120%;
 }
 
 figure {

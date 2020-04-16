@@ -9,10 +9,8 @@ navbar:
       href: history.html
     - text: "Civil Works"
       href: civil.html
-    - text: "Standard"
-      href: standard.html
-    - text: "Alternative"
-      href: alternative.html 
+    - text: "Process"
+      href: together.html 
 output:
   html_document:
     css: style.css
