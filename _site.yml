@@ -1,0 +1,10 @@
+name: "lam-usace"
+output_dir: "."
+navbar:
+  title: "LAM | USACE"
+  left:
+    - text: "Home"
+      href: home.html
+output:
+  html_document:
+    css: style.css
