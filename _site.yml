@@ -18,6 +18,9 @@ navbar:
           href: standard.html
         - text: " - Alternative"
           href: alternative_all.html
+    - text: "Tools"
+      menu: 
+        - text: "EPWater Projects"
 output:
   html_document:
     css: style.css
