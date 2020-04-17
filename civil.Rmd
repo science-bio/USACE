@@ -6,8 +6,9 @@
 		<title>USACE Civil Works</title>
 	</head>
 <body>
+<br>
 <h3><strong>USACE Civil Works</strong></h3>
-
+<br>
 <h3>Summary</h3>
 
 <p>The Corps began with improving and regulating navigation channels, but Congress expanded the Corps’ workload by authorizing the agency to reduce flood damage, and restore aquatic ecosystems. Federal involvement through the Corps in these water resource development activities is directed by Congress through authorization and appropriations legislation. <strong>Congress often considers Corps authorization legislation biennially and appropriations annually</strong>. Authorization for Corps studies and projects are generally required before eligibility for federal appropriations. The Corps undertakes water resource development activities principally through the Civil Works program. This involvement attracts congressional attention because it can have significant local and regional economic benefits and environmental effects.</p>
