@@ -1,4 +1,3 @@
-<>
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +20,11 @@
 
 <p>Unlike federal funding for highways – where federal assistance comes in the form of grants, direct contributions, or credit assistance – funding to the Corps is used by the agency for performing work on specific studies and for contracting for construction of authorized projects … (Comment: I need to continue this page with more detailed information)</p>
 
+<object data="standard.pdf" type="application/pdf" width="1000px" height="1000px">
+    <embed src="standard.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="standard.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 </body>
 </html>
 

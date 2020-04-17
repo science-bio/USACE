@@ -12,12 +12,12 @@ body {
 	color:       #000;
 	font-family: georgia, serif;
 	font-size:   160%;
-	line-height: 1.6;
+	line-height: 2;
 	margin:      0;
-	padding:     2em 2em 5em;
+	padding:     5em 2em 2em;
 	background:  rgb(253, 253, 253);
 	margin:      auto;
-	max-width:   55em;
+	max-width:   70em;
 	color:       rgb(10, 10, 10);
 }
 
@@ -112,17 +112,17 @@ video {
 }
 
 img {
-	max-width: 120%;
+	max-width: 100%;
 }
 
 figure {
-	margin:     2em 0 1.5em 0;
-	width:      100%;
+	margin:     1.5em 0 1.5em 0em;
+	max-width: 10000px;
 	text-align: center;
 }
 
 figure img {
-	border: 1px solid #ccc;
+	border: 0px solid #ccc;
 }
 
 figcaption {

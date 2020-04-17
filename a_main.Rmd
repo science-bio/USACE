@@ -11,9 +11,7 @@
 
 <p>An <strong>alternative</strong> process for a USACE project can be done through general authorities previously granted by Congress to USACE. These general authorities allow USACE to undertake activities without requiring additional congressional authorization including emergency actions related to flooding and limited actions in response to drought. Congress also provides permission to the USACE to undertake projects under the Continuing Authorities Program. </p>
 
-<h3>1. Continuing Authorities Program</h3>
-
-<figure><img src="CAP.pdf"/></figure>
+<p>These are four <strong>main</strong> authorities that fall into the alternative project delivery process. Keep in mind that this is not a comprehensive list. </p>
 
 </body>
 </html>
