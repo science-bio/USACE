@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>The Process</title>
+	</head>
+<body>
+<h3>The Process</h3>
+
+<p>Civil work projects are carried out through partnerships between the Corps and a <strong>non-Federal entity</strong>. The process to fulfill the project can vary depending on the issue in mind. In general, each project requires two separate authorizations and appropriations. The following are oversimplified steps for the <strong>standard project delivery process</strong>;</p>
+
+<ol>
+	<li>First Congress must first authorize the Corp to study the project </li>
+	<li>Then, Congress must appropriate funds to carry out the study </li>
+	<li>Once the study is completed, Congress then must separately authorize construction of the project</li>
+	<li>Lastly, Congress must appropriate funds to construct a project before the Corps can begin construction</li>
+</ol>
+
+<p> As a result, the completion of USACE civil works projects can take a long time as it is a multi-step process. Recently, Congress has provided <strong>alternative project delivery processes</strong> to help carry out smaller community projects without the lengthy study and construction authorization and appropriation process.</p>
+
+<h3>Criteria </h3>
+
+<p>Regardless of delivery process <strong>all civil works projects must meet certain fundamental criteria;</strong></p>
+
+<ol>
+	<li> Each project and project study must be authorized by Congress </li>
+	<li>Moneys for each project and project study must be approved by Congress </li>
+	<li>Almost every project must have a non-federal sponsor who pays for a portion of the project’s costs</li>
+	<li>Each project must go through a detailed planning process that is guided by laws and regulation</li>
+	<li> Each project must comply with other applicable federal and state environmental laws</li>
+</ol>
+
+</body>
+</html>
+

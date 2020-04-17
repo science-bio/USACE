@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>alternative_all.utf8</title>
+
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">LAM | USACE</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="history.html">About</a>
+</li>
+<li>
+  <a href="civil.html">Civil Works</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Process
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="process.html">Summary</a>
+    </li>
+    <li>
+      <a href="standard.html"> - Standard</a>
+    </li>
+    <li>
+      <a href="alternative_all.html"> - Alternative</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Alternative Project Delivery Process
+</title>
+</head>
+<body>
+<h3>
+Alternative Project Delivery Process
+</h3>
+<p>
+An <strong>alternative</strong> process for a USACE project can be done through general authorities previously granted by Congress to USACE. These general authorities allow USACE to undertake activities without requiring additional congressional authorization including emergency actions related to flooding and limited actions in response to drought. Congress also provides permission to the USACE to undertake projects under the Continuing Authorities Program.
+</p>
+<p>
+These are <strong>four main</strong> authorities that fall into the alternative project delivery process. Keep in mind that this is not a comprehensive list.
+</p>
+<p>
+</p>
+<p>
+Please use the tool below to explore the 4 main project delivery paths
+</p>
+</body>
+</html>
+<div id="section" class="section level1 tabset">
+<h1 class="tabset"></h1>
+<div id="cap" class="section level2 tabset">
+<h2 class="tabset">1. CAP</h2>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Continuing Authorities Program
+</title>
+</head>
+<body>
+<h3>
+Continuing Authorities Program
+</h3>
+<p>
+The Corps’ authorities to undertake small projects are called <strong>Continuing Authorities Programs (CAPs)</strong>. Projects under these authorities can be conducted without project-specific congressional study or construction authorization and without project-specific appropriations.
+</p>
+<p>
+Completion of CAP projects can take less time to fulfill. In general, CAP projects can take three years from feasibility phase initiation to construction completion.
+</p>
+<p>
+The following is a flowchart for the CAP process.
+</p>
+<figure>
+<img src="CAP%20Flow%20Chart.pdf"/>
+</figure>
+<p>
+Please use the tool below to explore the 9 programs under this path
+</p>
+</body>
+</html>
+<div id="section-14" class="section level3">
+<h3>Section 14</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Section 14
+</title>
+</head>
+<body>
+<h3>
+Section 14
+</h3>
+<object data="CAPSection14REV20190502main.pdf" type="application/pdf" width="1000px" height="1000px">
+<embed src="CAPSection14REV20190502main.pdf">
+<p>
+This browser does not support PDFs. Please download the PDF to view it: <a href="CAPSection14REV20190502main.pdf">Download PDF</a>.
+</p>
+</embed>
+</object>
+</body>
+</html>
+</div>
+<div id="section-107" class="section level3">
+<h3>Section 107</h3>
+</div>
+<div id="section-204" class="section level3">
+<h3>Section 204</h3>
+</div>
+<div id="section-206" class="section level3">
+<h3>Section 206</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Section 206
+</title>
+</head>
+<body>
+<h3>
+Section 206
+</h3>
+<object data="CAPSection206REV20190502main.pdf" type="application/pdf" width="1000px" height="1000px">
+<embed src="CAPSection206REV20190502main.pdf">
+<p>
+This browser does not support PDFs. Please download the PDF to view it: <a href="CAPSection206REV20190502main.pdf">Download PDF</a>.
+</p>
+</embed>
+</object>
+</body>
+</html>
+</div>
+<div id="section-103" class="section level3">
+<h3>Section 103</h3>
+</div>
+<div id="section-111" class="section level3">
+<h3>Section 111</h3>
+</div>
+<div id="section-205" class="section level3">
+<h3>Section 205</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Section 205
+</title>
+</head>
+<body>
+<h3>
+Section 205
+</h3>
+<object data="CAPSection205REV20190502main.pdf" type="application/pdf" width="1000px" height="1000px">
+<embed src="CAPSection205REV20190502main.pdf">
+<p>
+This browser does not support PDFs. Please download the PDF to view it: <a href="CAPSection205REV20190502main.pdf">Download PDF</a>.
+</p>
+</embed>
+</object>
+</body>
+</html>
+</div>
+<div id="section-208" class="section level3">
+<h3>Section 208</h3>
+</div>
+<div id="section-1135" class="section level3">
+<h3>Section 1135</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Section 1135
+</title>
+</head>
+<body>
+<h3>
+Section 1135
+</h3>
+<object data="CAPSection1135REV20190502main.pdf" type="application/pdf" width="1000px" height="1000px">
+<embed src="CAPSection1135REV20190502main.pdf">
+<p>
+This browser does not support PDFs. Please download the PDF to view it: <a href="CAPSection1135REV20190502main.pdf">Download PDF</a>.
+</p>
+</embed>
+</object>
+</body>
+</html>
+</div>
+</div>
+<div id="environmental-infrastructure" class="section level2 tabset">
+<h2 class="tabset">2. Environmental Infrastructure</h2>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Environmental Infrastructure Assistance
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+Environmental Infrastructure Assistance
+</h3>
+<p>
+Congress has authorized and provided for USACE assistance with design and construction of municipal drinking water and wastewater infrastructure projects. This assistance has included treatment facilities, such as recycling and desalination plants; distribution and collection works, such as stormwater collection and recycled water distribution; and surface water protection and development projects. This assistance is broadly labeled <strong>environmental infrastructure</strong> at USACE but is also known as <strong>Section 219</strong>.
+</p>
+<p>
+Most USACE environmental infrastructure assistance is authorized for a specific geographic location (e.g., city, county, multiple counties).
+</p>
+<p>
+Most USACE environmental infrastructure assistance requires cost sharing, typically designated at 75% federal and 25% nonfederal; however, some of the assistance authorities are for 65% federal and 35% nonfederal cost sharing. Under Section 219, USACE performs the authorized work; for environmental infrastructure projects authorized in other provisions, USACE often can use appropriated funds to reimburse nonfederal sponsors for work they perform.
+</p>
+<p>
+Because environmental infrastructure activities are not traditional USACE water resource projects, they are not subject to USACE planning process (e.g., a benefit-cost analysis and feasibility study are not performed). USACE environmental infrastructure assistance activities, however, are subject to federal laws, such as NEPA.
+</p>
+</body>
+</html>
+</div>
+<div id="planning-and-assistance" class="section level2 tabset">
+<h2 class="tabset">3. Planning and Assistance</h2>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Planning and Technical Assistance
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+Planning and Technical Assistance
+</h3>
+<p>
+Congress has granted USACE some general authorities to provide technical assistance related to water resources planning and for floodplain management. Congress also has authorized USACE to provide technical and construction assistance to tribes.
+</p>
+<p>
+</p>
+<p>
+Please use the tool below to explore the 3 programs under this path
+</p>
+</body>
+</html>
+<div id="planning-assistance-to-states" class="section level3">
+<h3>1. Planning Assistance to States</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+<ol style="list-style-type: decimal">
+<li>Planning Assistance to States
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+<ol style="list-style-type: decimal">
+<li>Planning Assistance to States
+</h3></li>
+</ol></li>
+</ol>
+<p>
+Technical assistance to states, communities, and other eligible entities for comprehensive water resources planning, and eligible levee system evaluations of federally authorized levees
+</p>
+</body>
+</html>
+</div>
+<div id="flood-plain-management-services" class="section level3">
+<h3>2. Flood Plain Management Services</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+<ol start="2" style="list-style-type: decimal">
+<li>Flood Plain Management Services
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+<ol start="2" style="list-style-type: decimal">
+<li>Flood Plain Management Services
+</h3></li>
+</ol></li>
+</ol>
+<p>
+Technical assistance on flood and floodplain issues
+</p>
+</body>
+</html>
+</div>
+<div id="tribal-partnership-program" class="section level3">
+<h3>3. Tribal Partnership Program</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+<ol start="3" style="list-style-type: decimal">
+<li>Tribal Partnership Program
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+<ol start="3" style="list-style-type: decimal">
+<li>Tribal Partnership Program
+</h3></li>
+</ol></li>
+</ol>
+<p>
+Studies and construction of water resource development projects that benefit Indian tribes
+</p>
+</body>
+</html>
+</div>
+</div>
+<div id="natural-disaster" class="section level2 tabset">
+<h2 class="tabset">4. Natural Disaster</h2>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+Natural Disaster and Emergency Response Activities
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+Natural Disaster and Emergency Response Activities
+</h3>
+<p>
+</p>
+<p>
+Please use the tool below to explore the 3 programs under this path
+</p>
+</body>
+</html>
+<div id="national-response-framework" class="section level3">
+<h3>1. National Response Framework</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+<ol style="list-style-type: decimal">
+<li>National Response Framework
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+<ol style="list-style-type: decimal">
+<li>National Response Framework
+</h3></li>
+</ol></li>
+</ol>
+<p>
+Under the National Response Framework, USACE coordinates emergency support for public works and engineering. This support includes technical assistance, engineering, and construction management as well as emergency contracting, power, and repair of public water and wastewater and solid facilities.
+</p>
+<p>
+Eligibility for assistance requires … (Comment: I am not sure if this is specific to presidentially declared disasters only. I need to research this topic)
+</p>
+</body>
+</html>
+</div>
+<div id="flood-fighting-and-emergency-response" class="section level3">
+<h3>2. Flood Fighting and Emergency Response</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+<ol start="2" style="list-style-type: decimal">
+<li>Flood Fighting and Emergency Response
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+<ol start="2" style="list-style-type: decimal">
+<li>Flood Fighting and Emergency Response
+</h3></li>
+</ol></li>
+</ol>
+<p>
+Congress has given USACE its own emergency response authority. This is commonly referred to as the agency’s <strong>P.L. 84-99 authority</strong>.
+</p>
+<p>
+The act authorizes USACE to perform emergency response and disaster assistance. It also authorizes disaster preparedness, advance measures, emergency operations (disaster response and post-flood response), rehabilitation of certain damaged flood control works, protection or repair of certain federally authorized shore protection works threatened by coastal storms, emergency dredging, and flood-related rescue operations. These activities are limited to actions to save lives and protect improved property (public facilities/services and residential or commercial developments). USACE also has some authorities to assist with selected activities during drought
+</p>
+</body>
+</html>
+</div>
+<div id="rip" class="section level3">
+<h3>3. RIP</h3>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>
+<ol start="3" style="list-style-type: decimal">
+<li>Rehabilitation and Inspection Program (RIP)
+</title>
+</head>
+<body>
+<p>
+</p>
+<h3>
+<ol start="3" style="list-style-type: decimal">
+<li>Rehabilitation and Inspection Program (RIP)
+</h3></li>
+</ol></li>
+</ol>
+<p>
+Under the Rehabilitation and Inspection Program (RIP), the Corps is authorized to rehabilitate damaged flood control works (e.g., levees) and federally constructed hurricane or shore protection projects (e.g., federal beach nourishment projects) and to conduct related inspections.
+</p>
+<p>
+To be eligible for rehabilitation assistance, the project must be in active status at the time of damage by wind, wave, or water action other than ordinary nature.
+</p>
+<p>
+For locally constructed projects, 80% of the cost to repair the damage is paid using federal funds and 20% is paid by the levee or dam owner. For federally constructed projects, the entire repair cost is a federal responsibility (except the nonfederal sponsor is responsible for the cost of obtaining the sand or other material used in the repair). For damage to be repaired, USACE must determine that repair has a favorable benefit-cost ratio. Local sponsor assume any rehabilitation cost for damage to an active project attributable to deficient maintenance. WRDA 2016 allows that in conducting repair or restoration work under RIP, an increase in the level of protection can be made if the nonfederal sponsor pays for the additional protection.
+</p>
+</body>
+</html>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

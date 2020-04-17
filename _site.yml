@@ -1,0 +1,23 @@
+name: "LAM | USACE"
+output_dir: "."
+navbar:
+  title: "LAM | USACE"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: history.html
+    - text: "Civil Works"
+      href: civil.html
+    - text: "Process"
+      href: process.html
+      menu:
+        - text: "Summary"
+          href: process.html
+        - text: " - Standard"
+          href: standard.html
+        - text: " - Alternative"
+          href: alternative_all.html
+output:
+  html_document:
+    css: style.css
