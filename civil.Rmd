@@ -33,11 +33,11 @@
 <p><strong>All civil works projects must meet certain fundamental criteria;</strong></p>
 
 <ol>
-	<li> Each project must go through a detailed planning process that is guided by laws and regulation</li>
+	<li> Each project and project study must be authorized by Congress </li>
+	<li>Moneys for each project and project study must be approved by Congress </li>
+	<li>Almost every project must have a non-federal sponsor who pays for a portion of the project’s costs</li>
+	<li>Each project must go through a detailed planning process that is guided by laws and regulation</li>
 	<li> Each project must comply with other applicable federal and state environmental laws</li>
-	<li> Each project and project study must be authorized by Congress</li>
-	<li> Moneys for each project and project study must be approved by Congress</li>
-	<li> Almost every project must have a non-federal sponsor who pays for a portion of the project’s costs.</li>
 </ol>
 
 </body>
