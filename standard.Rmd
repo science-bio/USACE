@@ -7,7 +7,8 @@
 	</head>
 <body>
 <br>
-<h3>Standard Project Delivery Process</h3>
+<h3><strong>Standard</strong></h3>
+<h3>Project Delivery Process</h3>
 
 <p>The <strong>standard</strong> process for a USACE project requires two separate congressional authorizations — one for studying feasibility, and a subsequent one for construction — as well as appropriations for both. Congress generally considers an omnibus USACE authorization bill biannually. The bill is typically titled a Water Resources Development Act (WRDA). </p>
 

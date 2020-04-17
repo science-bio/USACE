@@ -7,8 +7,9 @@
 	</head>
 <body>
 <br>
-<h3>Alternative Project Delivery Process</h3>
-<br>
+<h3><strong>Alternative</strong></h3>
+<h3>Project Delivery Process</h3>
+
 <p>An <strong>alternative</strong> process for a USACE project can be done through general authorities previously granted by Congress to USACE. These general authorities allow USACE to undertake activities without requiring additional congressional authorization including emergency actions related to flooding and limited actions in response to drought. Congress also provides permission to the USACE to undertake projects under the Continuing Authorities Program. </p>
 
 <p>These are <strong>four main</strong> authorities that fall into the alternative project delivery process. Keep in mind that this is not a comprehensive list. </p>

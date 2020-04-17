@@ -7,6 +7,8 @@
 	</head>
 <body>
 <br>
+<h3><strong>Summary</strong></h3>
+<br>
 <h3>The Process</h3>
 
 <p>Civil work projects are carried out through partnerships between the Corps and a <strong>non-Federal entity</strong>. The process to fulfill the project can vary depending on the issue in mind. In general, each project requires two separate authorizations and appropriations. The following are oversimplified steps for the <strong>standard project delivery process</strong>;</p>
